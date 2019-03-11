@@ -1,26 +1,38 @@
 /* Web Fonts -------------------- */
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,400i,700,700i');
 
 
-
+/* colors -------------------- */
+/*
+body-background-grey: #f9f9f9
+portfolio-back-white: #fefefe
+textcolor- #6e6e6e
+*/
 /* Base Styles -------------------- */
 
 * {
 	box-sizing: border-box;
 }
-
-
-
-.name a,
-.main-nav a {
-	text-align: center;
-	display: block;
-	padding: 10px 15px;
+body {
+	font-family: 'Merriweather', serif;
+	font-size: 1em;
+	font-weight: normal;
+	color: #6e6e6e;
+	background-color: #f9f9f9;
 }
+
+h1 {
+	font-family: helvetica;
+}
+
+
+
+
 
 section img {
 	max-width: 100%;
 	padding-left: 1em;
-	padding-right: 1em; 
+	padding-right: 1em;
 }
 
 /* Pseudo-classes ------------------ */
@@ -28,8 +40,26 @@ section img {
 
 
 /* Main Styles --------------------- */
+.main-header {
+	text-align: center;
+	margin: 0 auto;
+}
 
+.main-nav li {
+	list-style-type: none;
+	background-color: #fefefe;
+	display: block;
+	margin-bottom: 5px;
+	max-width: 99%;
 
+}
+
+.name a,
+.main-nav a {
+	text-align: center;
+	display: block;
+	padding: 10px 15px;
+}
 
 /* Layout Styles ------------------ */
 
