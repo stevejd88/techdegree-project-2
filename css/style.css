@@ -4,7 +4,21 @@
 
 /* Base Styles -------------------- */
 
+* {
+	box-sizing: border-box;
+}
 
+
+.name a,
+.main-nav a {
+	text-align: center;
+	display: block;
+	padding: 10px 15px;
+}
+
+section img {
+	width: 100%;
+}
 
 /* Pseudo-classes ------------------ */
 
@@ -19,8 +33,30 @@
 
 
 /* Float Clearfix ------------------*/
-
-
-
+/*
+.clearfix::after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+*/
 
 /* Media Queries -------------------- */
+/*
+@media (min-width: 769px) {
+
+  .name {
+		float: left;
+    color: red;
+	}
+
+  .main-nav {
+		float: right;
+    color: blue;
+	}
+
+  .main-nav li {
+		display: inline-block;
+		margin-left: 15px;
+	}
+*/
