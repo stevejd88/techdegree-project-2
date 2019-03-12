@@ -23,7 +23,6 @@ body {
 
 h1 {
 	font-family: helvetica;
-	font-weight: bold;
 }
 
 h1 {
@@ -54,8 +53,13 @@ section img {
 	margin: 0 auto;
 }
 
+.name {
+	font-weight: 900;
+}
+
 .main-nav li {
 	list-style-type: none;
+	text-transform: uppercase;
 	background-color: #fefefe;
 	display: block;
 	margin-bottom: 5px;
@@ -63,9 +67,7 @@ section img {
 
 }
 
-.name a,
 .main-nav a {
-	text-align: center;
 	display: block;
 	padding: 10px 15px;
 }
