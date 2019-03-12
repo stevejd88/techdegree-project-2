@@ -118,6 +118,7 @@ a:visited {
 .intro p {
 	padding-left: 2em;
 	padding-right: 2em;
+	padding-bottom: 25px;
 }
 
 #portfolio {
