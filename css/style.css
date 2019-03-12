@@ -105,9 +105,13 @@ a:link {
 	list-style-type: none;
 }
 
+hr {
+	width: 90%; 
+}
 
 
-/* Layout Styles ------------------ */
+
+/* Layout containers------------------ */
 
 
 
