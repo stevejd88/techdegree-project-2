@@ -48,6 +48,10 @@ a:link {
 	padding-right: 1em;
 }
 
+.footer-bottom {
+	display: block;
+}
+
 /* Pseudo-classes ------------------ */
 
 
@@ -91,6 +95,10 @@ a:link {
 	text-transform: uppercase;
 }
 
+.websites {
+	background-color: #fefefe;
+}
+
 .col p{
 	padding-left: 2em;
 	padding-right: 2em;
@@ -106,8 +114,26 @@ a:link {
 }
 
 hr {
-	width: 90%; 
+	width: 90%;
 }
+
+.name-bottom,
+.to-top {
+	width: 50
+	margin: 0 auto;
+	text-align: center;
+}
+
+.name-bottom {
+	float: left;
+}
+
+.to-top {
+	float: right;
+	text-transform: uppercase;
+	font-family: helvetica;
+}
+
 
 
 
