@@ -21,8 +21,7 @@ body {
 	background-color: #f9f9f9;
 }
 
-h1,
-h3 {
+h1 {
 	font-family: helvetica;
 	font-weight: bold;
 }
@@ -35,7 +34,9 @@ h3 {
 	font-size: 1.333em;
 }
 
-
+a:link {
+	text-decoration: none;
+}
 
 section img {
 	max-width: 100%;
