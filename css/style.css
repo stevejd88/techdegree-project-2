@@ -123,10 +123,17 @@ a:visited {
 
 #portfolio {
 	text-transform: uppercase;
+	padding-top: 35px;
+	padding-bottom: 35px;
 }
 
 .websites {
 	background-color: #fefefe;
+}
+
+.col  {
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 .col p{
