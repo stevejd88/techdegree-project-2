@@ -35,11 +35,12 @@ h3 {
 	font-size: 1.333em;
 }
 
-
+.main-nav {
+	padding: 0;
+}
 
 .intro img {
 	max-width: 60%;
-	border-radius: 10px;
 }
 
 .col img {
@@ -87,7 +88,8 @@ a:visited {
 }
 
 .main-nav {
-	padding: 0;
+
+
 }
 
 .main-nav li {
@@ -98,11 +100,19 @@ a:visited {
 	background-color: #fefefe;
 	display: block;
 	margin-bottom: 5px;
+	padding-top: 2px;
+	padding-bottom: 2px
 }
 
 .main-nav a {
 	display: block;
 	padding: 10px 15px;
+}
+
+.intro img {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-radius: 10px;
 }
 
 .intro p {
