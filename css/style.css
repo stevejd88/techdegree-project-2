@@ -104,18 +104,22 @@ a:link {
 	padding-right: 2em;
 }
 
-.footer-top {
+footer {
+	text-align: center;
+	margin: 0 auto;
 	padding-left: 2em;
 	padding-right: 2em;
 }
+
+
 
 .footer-top li {
 	list-style-type: none;
 }
 
-hr {
-	width: 90%;
-}
+
+
+
 
 .name-bottom,
 .to-top {
