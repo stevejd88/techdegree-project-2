@@ -21,11 +21,19 @@ body {
 	background-color: #f9f9f9;
 }
 
-h1 {
+h1,
+h3 {
 	font-family: helvetica;
+	font-weight: bold;
 }
 
+h1 {
+	font-size: 3.157em;
+}
 
+h3 {
+	font-size: 1.333em;
+}
 
 
 
