@@ -32,6 +32,10 @@ h1 {
 }
 
 h3 {
+	font-size: 1.33em;
+}
+
+.footer-bottom h3 {
 	font-size: 1em;
 }
 
@@ -83,6 +87,12 @@ a:visited {
 	padding-right: .8em;
 }
 
+.main-header,
+.main-nav {
+	display: flex;
+	flex-direction: column;
+}
+
 .name {
 	font-weight: 700;
 }
@@ -96,7 +106,8 @@ a:visited {
 	display: block;
 	margin-bottom: 5px;
 	padding-top: 2px;
-	padding-bottom: 2px
+	padding-bottom: 2px;
+	text-align: center;
 }
 
 .main-nav a {
@@ -216,7 +227,53 @@ footer li a {
 
 
 /* Media Queries -------------------- */
+@media (min-width: 769px) {
+
+	h1 {
+		font-size: 1.15em;
+	}
+
+	.main-header {
+		flex-direction: row;
+	}
+	.name{
+		width: 110px;
+	}
+
+	.main-header {
+		height: 200px;
+		justify-content: flex-end;
+	}
+
+	.main-nav {
+		margin-top: 1.5em;
+	}
+
+	.main-nav a {
+		display: block;
+		color: #797e83;
+		font-size: 1.125em;
+		font-weight: 300;
+		text-align: center;
+		padding: .4em;
+		border-bottom: 1px solid #ebecec;
+	}
+
+	.name {
+		width: 140px;
+		margin-right: auto;
+	}
+	.main-nav {
+		margin-top: 0;
+		flex-direction: row;
+		justify-content: flex-end;
+	}
+	.main-nav a {
+		border-bottom-color: transparent;
+	}
+}
 /*
+
 @media (min-width: 769px) {
 
   .name {

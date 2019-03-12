@@ -351,3 +351,7 @@ template {
 h3 {
   margin: 0;
 }
+
+li {
+  padding: 0;
+}
