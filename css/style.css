@@ -52,7 +52,7 @@ a:link {
 .main-header,
 .intro,
 .websites,
-.contact {
+.footer-top {
 	text-align: center;
 	margin: 0 auto;
 }
@@ -91,6 +91,13 @@ a:link {
 	padding-left: 2em;
 	padding-right: 2em;
 }
+
+.footer-top p{
+	padding-left: 2em;
+	padding-right: 2em;
+}
+
+
 
 /* Layout Styles ------------------ */
 
