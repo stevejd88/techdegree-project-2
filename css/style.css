@@ -32,7 +32,7 @@ h1 {
 }
 
 h3 {
-	font-size: 1.333em;
+	font-size: 1em;
 }
 
 .main-nav {
@@ -169,11 +169,7 @@ footer li a {
 	font-weight: bold;
 }
 
-.name-bottom,
-.to-top {
-	margin: 0 auto;
-	text-align: center;
-}
+
 
 .name-bottom {
 	float: left;
@@ -193,6 +189,10 @@ footer li a {
 
 .return {
 	display: none;
+}
+
+.footer-bottom {
+	padding: 20px 0;
 }
 
 
