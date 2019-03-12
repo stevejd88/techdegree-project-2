@@ -19,6 +19,7 @@ body {
 	font-weight: normal;
 	color: #6e6e6e;
 	background-color: #f9f9f9;
+	margin: 0 auto;
 }
 
 h1,
@@ -36,6 +37,9 @@ h3 {
 
 a:link {
 	text-decoration: none;
+}
+.intro img {
+	max-width: 60%;
 }
 
 .col img {
@@ -92,9 +96,13 @@ a:link {
 	padding-right: 2em;
 }
 
-.footer-top p{
+.footer-top {
 	padding-left: 2em;
 	padding-right: 2em;
+}
+
+.footer-top li {
+	list-style-type: none;
 }
 
 
