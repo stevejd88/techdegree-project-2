@@ -87,11 +87,6 @@ a:visited {
 	font-weight: 700;
 }
 
-.main-nav {
-
-
-}
-
 .main-nav li {
 	font-family: helvetica;
 	font-weight: bold;
@@ -123,12 +118,14 @@ a:visited {
 
 #portfolio {
 	text-transform: uppercase;
-	padding-top: 35px;
 	padding-bottom: 35px;
+
 }
 
 .websites {
 	background-color: #fefefe;
+	padding-top: 35px;
+	padding-bottom: 35px;
 }
 
 .col  {
@@ -136,9 +133,14 @@ a:visited {
 	padding-bottom: 10px;
 }
 
-.col p{
+p {
+	line-height: 1.6em;
+}
+
+.col p {
 	padding-left: 2em;
 	padding-right: 2em;
+
 }
 
 footer {
@@ -148,8 +150,13 @@ footer {
 	padding-right: 2em;
 }
 
+.footer-top {
+	padding: 35px 0;
+}
+
 .footer-top li {
 	list-style-type: none;
+	padding: 10px 0;
 }
 
 footer h4 {
@@ -164,7 +171,6 @@ footer li a {
 
 .name-bottom,
 .to-top {
-	width: 50
 	margin: 0 auto;
 	text-align: center;
 }
@@ -173,12 +179,21 @@ footer li a {
 	float: left;
 }
 
-.to-top {
+.footer-nav {
 	float: right;
 	text-transform: uppercase;
 	font-family: helvetica;
+	margin: 0 auto;
 }
 
+.footer-nav li {
+	display: inline-block;
+	list-style-type: none;
+}
+
+.return {
+	display: none;
+}
 
 
 
@@ -187,13 +202,13 @@ footer li a {
 
 
 /* Float Clearfix ------------------*/
-/*
+
 .clearfix::after {
   content: " ";
   display: table;
   clear: both;
 }
-*/
+
 
 /* Media Queries -------------------- */
 /*
