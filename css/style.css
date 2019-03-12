@@ -134,6 +134,16 @@ footer {
 	list-style-type: none;
 }
 
+footer h4 {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-family: helvetica;
+}
+
+footer li a {
+	font-weight: bold;
+}
+
 .name-bottom,
 .to-top {
 	width: 50
