@@ -6,7 +6,7 @@
 /*
 body-background-grey: #f9f9f9
 portfolio-back-white: #fefefe
-textcolor- #6e6e6e
+textcolor-#6e6e6e
 */
 /* Base Styles -------------------- */
 
@@ -35,12 +35,11 @@ h3 {
 	font-size: 1.333em;
 }
 
-a:link {
-	text-decoration: none;
-}
+
 
 .intro img {
 	max-width: 60%;
+	border-radius: 10px;
 }
 
 .col img {
@@ -54,6 +53,18 @@ a:link {
 }
 
 /* Pseudo-classes ------------------ */
+a:link {
+	color: #6e6e6e;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #1618b8;
+}
+
+a:visited {
+	color: #6e6e6e;
+}
 
 
 
@@ -119,15 +130,9 @@ footer {
 	padding-right: 2em;
 }
 
-
-
 .footer-top li {
 	list-style-type: none;
 }
-
-
-
-
 
 .name-bottom,
 .to-top {
