@@ -314,5 +314,9 @@ footer li a {
 			width: 33.3%;
 		}
 
+		.footer-bottom {
+			padding-bottom: 2em;
+		}
+
 
 	}
