@@ -227,7 +227,6 @@ footer li a {
 
 
 /* Media Queries -------------------- */
-@media (min-width: 769px) {
 	@media (min-width: 769px) {
 		.main-header {
 			height: 200px;
@@ -247,7 +246,27 @@ footer li a {
 		.main-nav li {
 			background: none;
 		}
+
+		.intro p {
+			float: left;
+			width: 60%;
+		}
+
+		.intro img {
+			float: right;
+			width: 40%;
+			padding-right: 2em;
+		}
+
+		.intro {
+			padding-bottom: 20px;
+		}
+
+		.col {
+			float: left;
+		}
 	}
+
 
 
 
