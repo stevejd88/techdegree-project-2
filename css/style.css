@@ -186,8 +186,6 @@ footer li a {
 	font-weight: bold;
 }
 
-
-
 .name-bottom {
 	float: left;
 }
@@ -211,11 +209,6 @@ footer li a {
 .footer-bottom {
 	padding: 20px 0;
 }
-
-
-
-/* Layout containers------------------ */
-
 
 
 /* Float Clearfix ------------------*/
@@ -317,6 +310,5 @@ footer li a {
 		.footer-bottom {
 			padding-bottom: 2em;
 		}
-
 
 	}
