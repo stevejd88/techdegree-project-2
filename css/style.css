@@ -28,7 +28,7 @@ h3 {
 }
 
 h1 {
-	font-size: 2.6em;
+	font-size: 2.1em;
 }
 
 h3 {
@@ -228,6 +228,32 @@ footer li a {
 
 /* Media Queries -------------------- */
 @media (min-width: 769px) {
+	@media (min-width: 769px) {
+		.main-header {
+			height: 200px;
+			justify-content: flex-end;
+		}
+		.name {
+			margin: 0 auto;
+			text-align: center;
+			width: 100%;
+		}
+		.main-nav {
+			margin-top: 3em;
+			flex-direction: row;
+			justify-content: center;
+
+		}
+		.main-nav li {
+			background: none;
+		}
+	}
+
+
+
+
+/*
+@media (min-width: 769px) {
 
 	h1 {
 		font-size: 1.15em;
@@ -272,22 +298,4 @@ footer li a {
 		border-bottom-color: transparent;
 	}
 }
-/*
-
-@media (min-width: 769px) {
-
-  .name {
-		float: left;
-    color: red;
-	}
-
-  .main-nav {
-		float: right;
-    color: blue;
-	}
-
-  .main-nav li {
-		display: inline-block;
-		margin-left: 15px;
-	}
 */
