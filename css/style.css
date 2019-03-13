@@ -308,8 +308,10 @@ footer li a {
 		.intro p {
 			max-width: 620px;
 			padding-left: 2em;
+		}
 
-
+		.col {
+			width: 33.3%;
 		}
 
 
