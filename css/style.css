@@ -287,55 +287,30 @@ footer li a {
 		}
 	}
 
+	@media (min-width: 1025px) {
+		.main-header {
+			flex-direction: row;
+		}
+
+		.name{
+			margin-right: 350px;
+			margin-top: 70px;
+		}
+		.main-nav {
+			margin-top: 0;
+			align-self: center;
+		}
+		.main-nav li {
+			margin-left: .65em;
+			margin-right: .65em;
+		}
+
+		.intro p {
+			max-width: 620px;
+			padding-left: 2em;
 
 
+		}
 
 
-
-/*
-@media (min-width: 769px) {
-
-	h1 {
-		font-size: 1.15em;
 	}
-
-	.main-header {
-		flex-direction: row;
-	}
-	.name{
-		width: 110px;
-	}
-
-	.main-header {
-		height: 200px;
-		justify-content: flex-end;
-	}
-
-	.main-nav {
-		margin-top: 1.5em;
-	}
-
-	.main-nav a {
-		display: block;
-		color: #797e83;
-		font-size: 1.125em;
-		font-weight: 300;
-		text-align: center;
-		padding: .4em;
-		border-bottom: 1px solid #ebecec;
-	}
-
-	.name {
-		width: 140px;
-		margin-right: auto;
-	}
-	.main-nav {
-		margin-top: 0;
-		flex-direction: row;
-		justify-content: flex-end;
-	}
-	.main-nav a {
-		border-bottom-color: transparent;
-	}
-}
-*/
