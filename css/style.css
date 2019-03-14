@@ -221,7 +221,7 @@ footer li a {
 
 
 /* Media Queries -------------------- */
-	@media (min-width: 769px) {
+	@media (min-width: 768px) {
 		.main-header {
 			height: 200px;
 			justify-content: flex-end;
@@ -280,7 +280,7 @@ footer li a {
 		}
 	}
 
-	@media (min-width: 1025px) {
+	@media (min-width: 1024px) {
 		.main-header {
 			flex-direction: row;
 		}
