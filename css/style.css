@@ -58,6 +58,10 @@ h3 {
 	display: block;
 }
 
+ul {
+    padding: 0;
+}
+
 /* Pseudo-classes ------------------ */
 a:link {
 	color: #6e6e6e;
@@ -292,7 +296,8 @@ footer li a {
 		}
 
 		.name{
-			margin-right: 350px;
+			text-align: left;
+			padding-left: 50px;
 			margin-top: 70px;
 		}
 		.main-nav {
