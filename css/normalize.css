@@ -355,3 +355,8 @@ h3 {
 li {
   padding: 0;
 }
+
+p {
+  margin-left: 0;
+  margin-right: 0;
+}

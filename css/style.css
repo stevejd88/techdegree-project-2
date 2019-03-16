@@ -63,6 +63,7 @@ ul {
     padding: 0;
 }
 
+
 /* Pseudo-classes ------------------ */
 a:link {
 	color: #6e6e6e;
@@ -138,11 +139,6 @@ a:visited {
 	padding-top: 20px;
 	padding-bottom: 35px;
 
-}
-
-main .websites {
-	max-width: 1024px;
-	margin: 0 auto;
 }
 
 .websites {
@@ -321,12 +317,16 @@ footer li a {
 			padding-left: 2em;
 		}
 
+		main .websites {
+			max-width: 1024px;
+			margin: 0 auto;
+		}
+
 		.col {
 			width: 33%;
 		}
 
 		.col p {
-			width: 85%;
 			padding-bottom: 5%;
 			padding-left: 0;
 			padding-right: 0;
