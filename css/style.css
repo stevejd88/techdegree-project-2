@@ -140,6 +140,11 @@ a:visited {
 
 }
 
+main .websites {
+	max-width: 1024px;
+	margin: 0 auto;
+}
+
 .websites {
 	background-color: #fefefe;
 	padding-top: 35px;
